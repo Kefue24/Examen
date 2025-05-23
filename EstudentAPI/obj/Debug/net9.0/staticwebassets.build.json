@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "RyrwB4lpUrbxzO87JLm86jPmvWMF4qEsZAHx4h9T+Z4=",
+  "Source": "EstudentAPI",
+  "BasePath": "_content/EstudentAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

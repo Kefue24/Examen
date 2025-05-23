@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.2682" branch-rate="0.1666" version="1.9" timestamp="1747790812" lines-covered="22" lines-valid="82" branches-covered="2" branches-valid="12">
+  <sources>
+    <source>/Users/aaa/Desktop/Diplomado/Modulo 2/Practica/EstudentAPI/</source>
+  </sources>
+  <packages>
+    <package name="EstudentAPI" line-rate="0.2682" branch-rate="0.1666" complexity="23">
+      <classes>
+        <class name="Program" filename="Program.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="3" hits="0" branch="False" />
+                <line number="6" hits="0" branch="False" />
+                <line number="8" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="14" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="76" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="False" />
+            <line number="6" hits="0" branch="False" />
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="14" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="76" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="EstudentAPI.Services.StudentService" filename="Services/StudentService.cs" line-rate="0.1555" branch-rate="0" complexity="11">
+          <methods>
+            <method name="GetAll" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetById" signature="(System.Int32)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="44" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Create" signature="(EstudentAPI.Models.Estudiante)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Update" signature="(System.Int32,EstudentAPI.Models.Estudiante)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="44" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Delete" signature="(System.Int32)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="44" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="HasApproved" signature="(EstudentAPI.Models.Estudiante)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="65" hits="2" branch="False" />
+                <line number="66" hits="2" branch="False" />
+                <line number="67" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="2" branch="False" />
+                <line number="13" hits="2" branch="False" />
+                <line number="14" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="44" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="14" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="44" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="44" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="65" hits="2" branch="False" />
+            <line number="66" hits="2" branch="False" />
+            <line number="67" hits="2" branch="False" />
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="EstudentAPI.Models.Estudiante" filename="Models/Estudiante.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_CI" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="16" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Nombre" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="18" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Nota" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="16" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="16" branch="False" />
+            <line number="6" hits="18" branch="False" />
+            <line number="7" hits="16" branch="False" />
+          </lines>
+        </class>
+        <class name="EstudentAPI.Controllers.EstudentController" filename="Controllers/EstudentController.cs" line-rate="0.5714" branch-rate="1" complexity="7">
+          <methods>
+            <method name="GetAll" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="2" branch="False" />
+                <line number="24" hits="2" branch="False" />
+                <line number="25" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetById" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="30" hits="3" branch="False" />
+                <line number="31" hits="3" branch="False" />
+                <line number="32" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="20" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="2" branch="False" />
+                <line number="34" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="Create" signature="(EstudentAPI.Models.Estudiante)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Update" signature="(System.Int32,EstudentAPI.Models.Estudiante)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Delete" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(EstudentAPI.Services.IStudentService)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="5" branch="False" />
+                <line number="16" hits="5" branch="False" />
+                <line number="17" hits="5" branch="False" />
+                <line number="18" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="2" branch="False" />
+            <line number="24" hits="2" branch="False" />
+            <line number="25" hits="2" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="31" hits="3" branch="False" />
+            <line number="32" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="20" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="33" hits="2" branch="False" />
+            <line number="34" hits="3" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="15" hits="5" branch="False" />
+            <line number="16" hits="5" branch="False" />
+            <line number="17" hits="5" branch="False" />
+            <line number="18" hits="5" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
