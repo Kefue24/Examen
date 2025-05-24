@@ -110,3 +110,4 @@
 /Users/aaa/Desktop/Diplomado/Modulo 2/Practica/EstudenAPI.Tests/obj/Debug/net9.0/EstudenAPI.Tests.pdb
 /Users/aaa/Desktop/Diplomado/Modulo 2/Practica/EstudenAPI.Tests/obj/Debug/net9.0/EstudenAPI.Tests.genruntimeconfig.cache
 /Users/aaa/Desktop/Diplomado/Modulo 2/Practica/EstudenAPI.Tests/obj/Debug/net9.0/ref/EstudenAPI.Tests.dll
+/Users/aaa/Desktop/Diplomado/Modulo 2/Practica/EstudenAPI.Tests/obj/Debug/net9.0/EstudenAPI.Tests.sourcelink.json

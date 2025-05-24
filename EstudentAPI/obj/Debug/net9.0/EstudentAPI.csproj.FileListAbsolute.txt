@@ -34,3 +34,4 @@
 /Users/aaa/Desktop/Diplomado/Modulo 2/Practica/EstudentAPI/obj/Debug/net9.0/EstudentAPI.pdb
 /Users/aaa/Desktop/Diplomado/Modulo 2/Practica/EstudentAPI/obj/Debug/net9.0/EstudentAPI.genruntimeconfig.cache
 /Users/aaa/Desktop/Diplomado/Modulo 2/Practica/EstudentAPI/obj/Debug/net9.0/ref/EstudentAPI.dll
+/Users/aaa/Desktop/Diplomado/Modulo 2/Practica/EstudentAPI/obj/Debug/net9.0/EstudentAPI.sourcelink.json
